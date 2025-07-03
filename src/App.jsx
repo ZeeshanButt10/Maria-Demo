@@ -6,7 +6,6 @@ import Data from "./Components/Data/Data";
 import Start from "./Components/Start/Start";
 import { Route, Routes } from "react-router-dom";
 import Contact from "./Components/Contact/Contact";
-import Check from "./Components/Contact/Check";
 
 //creat a layout file for layout related stuff e.g footer, header and main area, sidebar, create a Route.js file
 
@@ -20,7 +19,6 @@ function App() {
     <>
       <div className="bg-[#042036]">
         <div className="relative pt-20  border-[#053964]">
-          <Check/>
           <Navbar />
           <Routes>
             <Route path="/" element={<Start />} />
